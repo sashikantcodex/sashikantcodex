@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,40:302b63,70:24243e,100:1a1a2e&height=260&section=header&text=Sashikanta%20Sahoo&fontSize=62&fontColor=58A6FF&animation=fadeIn&fontAlignY=42&desc=⚡%20Senior%20Full%20Stack%20Engineer%20%7C%20Healthcare%20Tech%20%7C%208%20Years&descSize=19&descColor=a8dadc&descAlignY=60&stroke=58A6FF&strokeWidth=1"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,40:302b63,70:24243e,100:1a1a2e&height=260&section=header&text=Sashikanta%20Sahoo&fontSize=62&fontColor=58A6FF&animation=fadeIn&fontAlignY=42&desc=Senior%20Full%20Stack%20Engineer%20Healthcare%20Tech&descSize=18&descColor=a8dadc&descAlignY=60&stroke=58A6FF&strokeWidth=1"/>
 
 </div>
 
@@ -27,7 +27,7 @@
 <!-- TYPING ANIMATION -->
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2500&pause=800&color=58A6FF&center=true&vCenter=true&width=800&lines=🏥+Building+HIPAA-compliant+Clinical+Data+Platforms;⚡+React.js+%7C+Next.js+%7C+Node.js+%7C+TypeScript+%7C+AWS;🚀+~30%25+Perf+↑+·+~40%25+Faster+CI%2FCD+·+~25%25+Load+↓;🔐+Microservices+%7C+RBAC+%7C+Multi-tenant+Architecture;👨‍💻+SDE-4+%40+IQVIA+R%26D+Solutions%2C+Bangalore+🇮🇳;🌱+Learning%3A+AI%2FLLMs+%7C+Terraform+%7C+AWS+Cert+%7C+K8s" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=3000&pause=500&color=58A6FF&center=true&vCenter=true&width=900&lines=Building+HIPAA-compliant+Clinical+Data+Platforms;React.js+Next.js+Node.js+TypeScript+AWS;30%25+Perf+Up+40%25+Faster+CI/CD+25%25+Faster+Load;Microservices+RBAC+Multi-tenant+Architecture;SDE-4+Senior+Full+Stack+Engineer+at+IQVIA;Learning:+AI/LLMs+Terraform+AWS+Kubernetes" alt="Typing Animation" />
 
 <br/><br/>
 
