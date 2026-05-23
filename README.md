@@ -5,7 +5,7 @@
 ### 🏥 Healthcare · Full-Stack · Feature-by-Feature Learning
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sashikanta-sahoo-108688313)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sashikanta-code-workthrough)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sashikantcodex)
 [![Location](https://img.shields.io/badge/Bengaluru-India-2ea44f?style=for-the-badge&logo=googlemaps&logoColor=white)]()
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Software+Development+Engineer+@+IQVIA;Full-Stack+%7C+Python+%7C+Node+%7C+Next.js;Building+reliable+systems+in+Life+Sciences;Documenting+code+one+feature+at+a+time" alt="Typing intro" />
@@ -58,9 +58,9 @@
 
 | Repo | Stack | What you'll find |
 |------|--------|------------------|
-| [**python-all-features**](https://github.com/sashikanta-code-workthrough/python-all-features) | Python | Lessons CLI, typing, tests, async, logging |
-| [**NextJs-Features**](https://github.com/sashikanta-code-workthrough/NextJs-Features) | TypeScript / Next.js | Modern frontend patterns & experiments |
-| [**NodeJs-Auth-Features**](https://github.com/sashikanta-code-workthrough/NodeJs-Auth-Features) | JavaScript / Node.js | Auth flows, middleware, API security basics |
+| [**python-all-features**](https://github.com/sashikantcodex/python-all-features) | Python | Lessons CLI, typing, tests, async, logging |
+| [**NextJs-Features**](https://github.com/sashikantcodex/NextJs-Features) | TypeScript / Next.js | Modern frontend patterns & experiments |
+| [**NodeJs-Auth-Features**](https://github.com/sashikantcodex/NodeJs-Auth-Features) | JavaScript / Node.js | Auth flows, middleware, API security basics |
 
 ---
 
@@ -109,10 +109,10 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=sashikanta-code-workthrough&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" height="165"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=sashikanta-code-workthrough&theme=tokyonight&hide_border=true" alt="GitHub streak" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=sashikantcodex&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" height="165"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=sashikantcodex&theme=tokyonight&hide_border=true" alt="GitHub streak" height="165"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sashikanta-code-workthrough&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sashikantcodex&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
 
 </div>
 
@@ -143,7 +143,7 @@ Small diffs. Clear names. Tests when behavior matters.
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sashikanta_Sahoo-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sashikanta-sahoo-108688313)
-[![GitHub](https://img.shields.io/badge/GitHub-sashikanta--code--workthrough-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sashikanta-code-workthrough)
+[![GitHub](https://img.shields.io/badge/GitHub-sashikantcodex-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sashikantcodex)
 
 <br/>
 
@@ -157,6 +157,6 @@ Small diffs. Clear names. Tests when behavior matters.
 
 ### 💡 *Reliable software for regulated worlds. Curious code for everything else.*
 
-<img src="https://komarev.com/ghpvc/?username=sashikanta-code-workthrough&label=Profile%20views&color=58a6ff&style=flat" alt="Profile views" />
+<img src="https://komarev.com/ghpvc/?username=sashikantcodex&label=Profile%20views&color=58a6ff&style=flat" alt="Profile views" />
 
 </div>
