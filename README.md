@@ -8,7 +8,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sashikantcodex)
 [![Location](https://img.shields.io/badge/Bengaluru-India-2ea44f?style=for-the-badge&logo=googlemaps&logoColor=white)]()
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Software+Development+Engineer+@+IQVIA;Full-Stack+%7C+Python+%7C+Node+%7C+Next.js;Building+reliable+systems+in+Life+Sciences;Documenting+code+one+feature+at+a+time" alt="Typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Software+Development+Engineer+@+IQVIA;Full-Stack+%7C+Python+%7C+Node+%7C+Next.js;Building+reliable+systems+in+Life+Sciences;Documenting+code+one+feature+at+a+time" alt="Typing intro" />
 
 </div>
 
