@@ -1,6 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340">
   <defs>
-    <!-- Background gradient -->
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%"   stop-color="#050010"/>
       <stop offset="28%"  stop-color="#0d0030"/>
@@ -9,7 +8,6 @@
       <stop offset="100%" stop-color="#050010"/>
     </linearGradient>
 
-    <!-- Name text gradient -->
     <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%"   stop-color="#64b5f6"/>
       <stop offset="30%"  stop-color="#ffffff"/>
@@ -17,7 +15,6 @@
       <stop offset="100%" stop-color="#64b5f6"/>
     </linearGradient>
 
-    <!-- Glow gradient for accent line -->
     <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%"   stop-color="#050010" stop-opacity="0"/>
       <stop offset="30%"  stop-color="#00b4d8" stop-opacity="0.9"/>
@@ -26,20 +23,63 @@
       <stop offset="100%" stop-color="#050010" stop-opacity="0"/>
     </linearGradient>
 
-    <!-- Wave mask for bottom -->
-    <linearGradient id="waveGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#050010" stop-opacity="0"/>
-      <stop offset="15%"  stop-color="#0d1117"/>
-      <stop offset="85%"  stop-color="#0d1117"/>
-      <stop offset="100%" stop-color="#050010" stop-opacity="0"/>
-    </linearGradient>
-
-    <!-- Scanner line gradient -->
     <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%"   stop-color="#00b4d8" stop-opacity="0"/>
       <stop offset="50%"  stop-color="#00b4d8" stop-opacity="0.35"/>
       <stop offset="100%" stop-color="#00b4d8" stop-opacity="0"/>
     </linearGradient>
+
+    <style>
+      /* ── Twinkling star variants ── */
+      @keyframes tw-a { 0%,100%{opacity:.20} 50%{opacity:1.00} }
+      @keyframes tw-b { 0%,100%{opacity:.50} 50%{opacity:1.00} }
+      @keyframes tw-c { 0%,100%{opacity:.10} 50%{opacity:.90} }
+      @keyframes tw-d { 0%,100%{opacity:.40} 50%{opacity:1.00} }
+      @keyframes tw-e { 0%,100%{opacity:.30} 50%{opacity:1.00} }
+      @keyframes tw-f { 0%,100%{opacity:.60} 50%{opacity:1.00} }
+
+      /* ── Scanning sweep ── */
+      @keyframes scan {
+        0%   { transform:translateY(-340px); opacity:0   }
+        8%   { opacity:.60 }
+        92%  { opacity:.60 }
+        100% { transform:translateY(340px);  opacity:0   }
+      }
+
+      /* ── Text / line reveal ── */
+      @keyframes fadeIn    { from{opacity:0} to{opacity:1}    }
+      @keyframes fadeIn85  { from{opacity:0} to{opacity:.85}  }
+
+      /* Stars */
+      .sa { animation: tw-a 2.3s  0.0s infinite }
+      .sb { animation: tw-b 1.7s  0.4s infinite }
+      .sc { animation: tw-c 3.1s  0.8s infinite }
+      .sd { animation: tw-d 2.6s  0.2s infinite }
+      .se { animation: tw-e 1.9s  1.1s infinite }
+      .sf { animation: tw-f 2.8s  0.6s infinite }
+      .sg { animation: tw-a 3.4s  0.3s infinite }
+      .sh { animation: tw-b 2.1s  0.9s infinite }
+      .si { animation: tw-c 2.7s  0.5s infinite }
+      .sj { animation: tw-d 1.6s  1.3s infinite }
+      .sk { animation: tw-e 2.9s  0.7s infinite }
+      .sl { animation: tw-e 3.2s  1.5s infinite }
+      .sm { animation: tw-b 2.4s  0.1s infinite }
+      .sn { animation: tw-d 2.2s  1.0s infinite }
+      .so { animation: tw-a 3.0s  0.4s infinite }
+      .sp { animation: tw-d 2.5s  0.8s infinite }
+      .sq { animation: tw-d 1.8s  0.3s infinite }
+      .sr { animation: tw-a 2.9s  1.2s infinite }
+      .ss { animation: tw-b 2.0s  0.6s infinite }
+
+      /* Scanner */
+      .scanner { animation: scan 4s 0.5s infinite }
+
+      /* Text reveals */
+      .name-text     { opacity:0; animation: fadeIn   1.2s 0.0s forwards }
+      .line-accent   { opacity:0; animation: fadeIn   1.5s 0.8s forwards }
+      .subtitle-text { opacity:0; animation: fadeIn   1.4s 0.6s forwards }
+      .tech-text     { opacity:0; animation: fadeIn85 1.6s 1.0s forwards }
+    </style>
   </defs>
 
   <!-- ── Background ── -->
@@ -60,37 +100,34 @@
     <line x1="1050" y1="0"   x2="1050" y2="340"/>
   </g>
 
-  <!-- ── Scanning light sweep ── -->
-  <rect x="0" y="0" width="1200" height="340" fill="url(#scanGrad)" opacity="0">
-    <animate attributeName="opacity" values="0;0.6;0" dur="4s" repeatCount="indefinite" begin="1s"/>
-    <animateTransform attributeName="transform" type="translate" from="0,-340" to="0,340" dur="4s" repeatCount="indefinite" begin="1s"/>
-  </rect>
+  <!-- ── Scanning light sweep (CSS-animated) ── -->
+  <rect class="scanner" x="0" y="0" width="1200" height="340" fill="url(#scanGrad)"/>
 
   <!-- ── Stars / Particles ── -->
   <!-- Row 1 -->
-  <circle cx="42"   cy="22"  r="1.6" fill="#90caf9"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.3s" repeatCount="indefinite"/></circle>
-  <circle cx="118"  cy="55"  r="1.2" fill="#ffffff"><animate attributeName="opacity" values="0.5;1;0.5" dur="1.7s" repeatCount="indefinite" begin="0.4s"/></circle>
-  <circle cx="220"  cy="18"  r="1.8" fill="#64b5f6"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="3.1s" repeatCount="indefinite" begin="0.8s"/></circle>
-  <circle cx="355"  cy="42"  r="1.3" fill="#90caf9"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.6s" repeatCount="indefinite" begin="0.2s"/></circle>
-  <circle cx="480"  cy="30"  r="1.5" fill="#ffffff"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.9s" repeatCount="indefinite" begin="1.1s"/></circle>
-  <circle cx="590"  cy="15"  r="1.1" fill="#48cae4"><animate attributeName="opacity" values="0.6;1;0.6" dur="2.8s" repeatCount="indefinite" begin="0.6s"/></circle>
-  <circle cx="700"  cy="48"  r="1.7" fill="#90caf9"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.4s" repeatCount="indefinite" begin="0.3s"/></circle>
-  <circle cx="820"  cy="25"  r="1.4" fill="#ffffff"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.1s" repeatCount="indefinite" begin="0.9s"/></circle>
-  <circle cx="960"  cy="38"  r="1.9" fill="#64b5f6"><animate attributeName="opacity" values="0.1;1;0.1" dur="2.7s" repeatCount="indefinite" begin="0.5s"/></circle>
-  <circle cx="1060" cy="20"  r="1.3" fill="#90caf9"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="1.6s" repeatCount="indefinite" begin="1.3s"/></circle>
-  <circle cx="1140" cy="50"  r="1.6" fill="#ffffff"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.9s" repeatCount="indefinite" begin="0.7s"/></circle>
+  <circle class="sa" cx="42"   cy="22"  r="1.6" fill="#90caf9"/>
+  <circle class="sb" cx="118"  cy="55"  r="1.2" fill="#ffffff"/>
+  <circle class="sc" cx="220"  cy="18"  r="1.8" fill="#64b5f6"/>
+  <circle class="sd" cx="355"  cy="42"  r="1.3" fill="#90caf9"/>
+  <circle class="se" cx="480"  cy="30"  r="1.5" fill="#ffffff"/>
+  <circle class="sf" cx="590"  cy="15"  r="1.1" fill="#48cae4"/>
+  <circle class="sg" cx="700"  cy="48"  r="1.7" fill="#90caf9"/>
+  <circle class="sh" cx="820"  cy="25"  r="1.4" fill="#ffffff"/>
+  <circle class="si" cx="960"  cy="38"  r="1.9" fill="#64b5f6"/>
+  <circle class="sj" cx="1060" cy="20"  r="1.3" fill="#90caf9"/>
+  <circle class="sk" cx="1140" cy="50"  r="1.6" fill="#ffffff"/>
   <!-- Row 2 -->
-  <circle cx="85"   cy="110" r="1.2" fill="#48cae4"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="3.2s" repeatCount="indefinite" begin="1.5s"/></circle>
-  <circle cx="200"  cy="95"  r="1.5" fill="#90caf9"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite" begin="0.1s"/></circle>
-  <circle cx="1020" cy="90"  r="1.4" fill="#64b5f6"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.2s" repeatCount="indefinite" begin="1.0s"/></circle>
-  <circle cx="1130" cy="105" r="1.7" fill="#ffffff"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.0s" repeatCount="indefinite" begin="0.4s"/></circle>
+  <circle class="sl" cx="85"   cy="110" r="1.2" fill="#48cae4"/>
+  <circle class="sm" cx="200"  cy="95"  r="1.5" fill="#90caf9"/>
+  <circle class="sn" cx="1020" cy="90"  r="1.4" fill="#64b5f6"/>
+  <circle class="so" cx="1130" cy="105" r="1.7" fill="#ffffff"/>
   <!-- Lower dots -->
-  <circle cx="55"   cy="260" r="1.3" fill="#90caf9"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.5s" repeatCount="indefinite" begin="0.8s"/></circle>
-  <circle cx="165"  cy="285" r="1.1" fill="#48cae4"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite" begin="0.3s"/></circle>
-  <circle cx="1045" cy="270" r="1.5" fill="#64b5f6"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.9s" repeatCount="indefinite" begin="1.2s"/></circle>
-  <circle cx="1155" cy="290" r="1.2" fill="#90caf9"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.0s" repeatCount="indefinite" begin="0.6s"/></circle>
+  <circle class="sp" cx="55"   cy="260" r="1.3" fill="#90caf9"/>
+  <circle class="sq" cx="165"  cy="285" r="1.1" fill="#48cae4"/>
+  <circle class="sr" cx="1045" cy="270" r="1.5" fill="#64b5f6"/>
+  <circle class="ss" cx="1155" cy="290" r="1.2" fill="#90caf9"/>
 
-  <!-- ── Corner bracket decorations ── -->
+  <!-- ── Corner brackets ── -->
   <g stroke="#00b4d8" stroke-width="2" fill="none" opacity="0.6">
     <path d="M20,20 L20,50 M20,20 L50,20"/>
     <path d="M1180,20 L1180,50 M1180,20 L1150,20"/>
@@ -98,44 +135,32 @@
     <path d="M1180,320 L1180,290 M1180,320 L1150,320"/>
   </g>
 
-  <!-- ── SASHIKANTA SAHOO — main name ── -->
-  <text x="600" y="152"
+  <!-- ── Name ── -->
+  <text class="name-text" x="600" y="152"
     text-anchor="middle"
-    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
     font-size="80" font-weight="900"
     letter-spacing="6"
-    fill="url(#nameGrad)">
-    SASHIKANTA SAHOO
-    <animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/>
-  </text>
+    fill="url(#nameGrad)">SASHIKANTA SAHOO</text>
 
   <!-- ── Accent glow line under name ── -->
-  <rect x="200" y="168" width="800" height="2" fill="url(#lineGrad)" rx="1">
-    <animate attributeName="width" from="0" to="800" dur="1.5s" fill="freeze" begin="0.8s"/>
-    <animate attributeName="x" from="600" to="200" dur="1.5s" fill="freeze" begin="0.8s"/>
-  </rect>
+  <rect class="line-accent" x="200" y="168" width="800" height="2" fill="url(#lineGrad)" rx="1"/>
 
   <!-- ── Subtitle ── -->
-  <text x="600" y="210"
+  <text class="subtitle-text" x="600" y="210"
     text-anchor="middle"
-    font-family="'Segoe UI', Arial, sans-serif"
+    font-family="'Segoe UI',Arial,sans-serif"
     font-size="18" font-weight="400"
     letter-spacing="2"
-    fill="#90e0ef">
-    Senior Full Stack Engineer  ·  Healthcare Tech  ·  AWS  ·  7+ Years in Production
-    <animate attributeName="opacity" values="0;1" dur="1.4s" fill="freeze" begin="0.6s"/>
-  </text>
+    fill="#90e0ef">Senior Full Stack Engineer  ·  Healthcare Tech  ·  AWS  ·  7+ Years in Production</text>
 
   <!-- ── Tech stack tag line ── -->
-  <text x="600" y="252"
+  <text class="tech-text" x="600" y="252"
     text-anchor="middle"
-    font-family="'JetBrains Mono', 'Courier New', monospace"
+    font-family="'JetBrains Mono','Courier New',monospace"
     font-size="13" font-weight="400"
     letter-spacing="5"
-    fill="#58A6FF" opacity="0.85">
-    React.js  ·  Next.js  ·  Node.js  ·  TypeScript  ·  AWS  ·  Docker  ·  Kubernetes
-    <animate attributeName="opacity" values="0;0.85" dur="1.6s" fill="freeze" begin="1s"/>
-  </text>
+    fill="#58A6FF">React.js  ·  Next.js  ·  Node.js  ·  TypeScript  ·  AWS  ·  Docker  ·  Kubernetes</text>
 
   <!-- ── Bottom wave ── -->
   <path d="M0,295 Q120,278 240,292 Q360,306 480,292 Q600,278 720,292 Q840,306 960,292 Q1080,278 1200,292 L1200,340 L0,340 Z"
