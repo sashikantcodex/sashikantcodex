@@ -1,10 +1,15 @@
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                     ANIMATED HEADER BANNER                        -->
+<!--               ✦  ANIMATED HEADER BANNER  ✦                        -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0221,20:160038,40:2d1b69,65:1a237e,85:0d47a1,100:0d0221&height=320&section=header&text=Sashikanta%20Sahoo&fontSize=72&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Senior%20Full%20Stack%20Engineer%20%E2%80%A2%20Healthcare%20Tech%20%E2%80%A2%207%2B%20Years%20in%20Production&descSize=17&descColor=58A6FF&descAlignY=58&stroke=58A6FF&strokeWidth=2"/>
+<!-- Custom animated SVG: dark-to-blue gradient · twinkling stars     -->
+<!-- scanning glow · corner brackets · gliding accent line            -->
+<img width="100%" src="./header.svg" alt="Sashikanta Sahoo — Senior Full Stack Engineer"/>
+
+<!-- Glowing separator strip -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:050010,25:0077b6,50:00b4d8,75:0077b6,100:050010&height=4"/>
 
 </div>
 
