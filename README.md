@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,40:302b63,70:24243e,100:1a1a2e&height=260&section=header&text=Sashikanta%20Sahoo&fontSize=62&fontColor=58A6FF&animation=fadeIn&fontAlignY=42&desc=Senior%20Full%20Stack%20Engineer%20Healthcare%20Tech&descSize=18&descColor=a8dadc&descAlignY=60&stroke=58A6FF&strokeWidth=1"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,40:302b63,70:24243e,100:1a1a2e&height=280&section=header&text=Sashikanta%20Sahoo&fontSize=66&fontColor=58A6FF&animation=fadeIn&fontAlignY=42&desc=Senior%20Full%20Stack%20Engineer%20%7C%20Healthcare%20Tech%20%7C%20AWS%20%7C%20React%20%7C%20Node.js&descSize=17&descColor=a8dadc&descAlignY=62&stroke=58A6FF&strokeWidth=1"/>
 
 </div>
 
@@ -27,15 +27,15 @@
 <!-- TYPING ANIMATION -->
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=3000&pause=500&color=58A6FF&center=true&vCenter=true&width=900&lines=Building+HIPAA-compliant+Clinical+Data+Platforms;React.js+Next.js+Node.js+TypeScript+AWS;30%25+Perf+Up+40%25+Faster+CI/CD+25%25+Faster+Load;Microservices+RBAC+Multi-tenant+Architecture;SDE-4+Senior+Full+Stack+Engineer+at+IQVIA;Learning:+AI/LLMs+Terraform+AWS+Kubernetes" alt="Typing Animation" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=3000&pause=500&color=58A6FF&center=true&vCenter=true&width=950&lines=Building+HIPAA-compliant+Clinical+Data+Platforms;~30%25+Perf+Boost+·+~40%25+Faster+CI%2FCD+·+~25%25+Faster+Loads;RBAC+·+JWT+·+Multi-tenant+·+HIPAA+Audit+Trails;SDE-4+Senior+Full+Stack+Engineer+@+IQVIA+Bangalore;7%2B+Years+Shipping+Production+Healthcare+Software;Levelling+Up:+AI%2FLLMs+·+Terraform+·+AWS+Cert+·+CKA" alt="Typing Animation" />
 
 <br/><br/>
 
 <!-- BADGES -->
-[![Profile Views](https://komarev.com/ghpvc/?username=sashikantcodex&label=👁%20Profile%20Views&color=0e75b6&style=for-the-badge)](https://github.com/sashikantcodex)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sashikanta-sahoo-108688313)
+[![Profile Views](https://komarev.com/ghpvc/?username=sashikantcodex&label=Profile+Views&color=0e75b6&style=for-the-badge)](https://github.com/sashikantcodex)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sashikanta-sahoo-108688313)
 [![Email](https://img.shields.io/badge/Gmail-Mail%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sashikantgeek@gmail.com)
-[![Open To Work](https://img.shields.io/badge/🟢%20Open%20To-Senior%20%2F%20Lead%20Roles-2ea44f?style=for-the-badge)](mailto:sashikantgeek@gmail.com)
+[![Open To Work](https://img.shields.io/badge/Open%20To-Senior%20%2F%20Lead%20Roles-2ea44f?style=for-the-badge)](mailto:sashikantgeek@gmail.com)
 
 </div>
 
@@ -49,6 +49,7 @@ const sashikanta = {
   stack   : ["React.js", "Next.js", "Node.js", "TypeScript", "AWS"],
   domain  : "Healthcare Tech — Clinical Platforms + Insurance Workflows (HIPAA)",
   impact  : { perf: "~30%↑", cicd: "~40%↓", pageLoad: "~25%↓", api: "~20%↓" },
+  experience: "7+ years shipping production healthcare software",
   now     : "Multi-tenant R&D clinical data platform @ IQVIA",
   next    : ["AI/LLMs", "Terraform", "AWS Cert", "React Server Components"],
   openTo  : "Senior / Lead roles · Bangalore · Remote / Hybrid",
@@ -57,21 +58,43 @@ const sashikanta = {
 
 ---
 
-## ⚡ Highlights
+## ⚡ Impact at a Glance
 
 <div align="center">
 
-| 🚀 | 💊 | 🔐 | 🛠️ |
-|:---:|:---:|:---:|:---:|
-| **~30% faster** app performance | **~40% shorter** CI/CD pipelines | HIPAA · JWT · RBAC · OAuth 2.0 | Mentored **3 junior engineers** |
-| **~25% faster** page loads | **~20% faster** API responses | Multi-tenant · Audit trails | Tech Lead since **2022** |
-| React component lib → **3 teams** | **40+ code smells** eliminated | OWASP Top 10 · HTTPS/TLS | 75%+ test coverage owned |
+<table>
+<tr>
+<td align="center">
+<img src="https://img.shields.io/badge/~30%25-Performance%20Boost-brightgreen?style=for-the-badge&logo=speedtest&logoColor=white"/>
+<br/><sub>API batching · Caching · Query Opt</sub>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/~40%25-Faster%20CI%2FCD-2196F3?style=for-the-badge&logo=jenkins&logoColor=white"/>
+<br/><sub>Jenkins + AWS · 40 min → 25 min</sub>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/~25%25-Faster%20Page%20Loads-FF9800?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+<br/><sub>Full perf audit · Screen rebuild</sub>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/~20%25-API%20Speedup-9C27B0?style=for-the-badge&logo=apachekafka&logoColor=white"/>
+<br/><sub>Redis · Mongo indexes · N+1 fixes</sub>
+</td>
+</tr>
+</table>
+
+<br/>
+
+| 🏥 Healthcare Domain | 🔐 Security | 🎓 Leadership |
+|:---:|:---:|:---:|
+| HIPAA · Clinical Platforms · Insurance | JWT · RBAC · OAuth 2.0 · OWASP Top 10 | Mentored 3 engineers · Tech Lead since 2022 |
+| Multi-tenant · Audit Trails · Prior Auth | Multi-tenant isolation · HTTPS/TLS | React component lib → 3 product teams |
 
 </div>
 
 ---
 
-## �️ Tech Stack
+## 🛠️ Tech Stack
 
 <div align="center">
 
@@ -87,7 +110,7 @@ const sashikanta = {
 <br/>
 <img src="https://skillicons.dev/icons?i=aws,docker,jenkins,githubactions,kubernetes,nginx,linux,python&theme=dark"/>
 
-**Testing · Security**
+**Testing · Tooling**
 <br/>
 <img src="https://skillicons.dev/icons?i=jest,git,github,postman,figma,vscode&theme=dark"/>
 
@@ -100,7 +123,7 @@ const sashikanta = {
 **🟢 IQVIA R&D Solutions** — `SDE-4 · Senior Full Stack Engineer` · *Nov 2024 – Present*
 > Multi-tenant clinical data platform for pharma R&D · React.js · Next.js · Node.js · AWS
 
-- ⚡ **~30% load time** via API batching, caching & query optimisation
+- ⚡ **~30% load time reduction** via API batching, caching & query optimization
 - 🚀 **~40% faster deploys** — Jenkins + AWS pipeline revamp (40 min → 25 min, zero outages)
 - 🔐 Standardised **JWT + RBAC** · multi-tenant support · HIPAA audit logging
 - 👨‍🏫 Mentoring **3 junior engineers** · architecture reviews · stakeholder collaboration
@@ -140,7 +163,7 @@ const sashikanta = {
 
 ---
 
-## � GitHub Stats
+## 📊 GitHub Stats
 
 <div align="center">
 
@@ -161,7 +184,21 @@ const sashikanta = {
 
 <div align="center">
 
-`🔄 System Design` &nbsp;·&nbsp; `� AWS Developer Associate` &nbsp;·&nbsp; `� AI / LLM Integration` &nbsp;·&nbsp; `🆕 Terraform` &nbsp;·&nbsp; `🔄 React Server Components` &nbsp;·&nbsp; `🆕 Kubernetes CKA`
+| 🔄 System Design | ☁️ AWS Dev Associate | 🤖 AI / LLM Integration | 🏗️ Terraform | ⚓ Kubernetes CKA | 🆕 React Server Components |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| *In Progress* | *In Progress* | *Exploring* | *Hands-on* | *Studying* | *Exploring* |
+
+</div>
+
+---
+
+## 📬 Let's Connect
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sashikanta%20Sahoo-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sashikanta-sahoo-108688313)
+[![Gmail](https://img.shields.io/badge/Gmail-sashikantgeek%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sashikantgeek@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-sashikantcodex-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sashikantcodex)
 
 </div>
 
