@@ -1,71 +1,92 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340">
   <defs>
-    <!-- Background gradient -->
+
+    <!-- ── Gradients ── -->
+
+    <!-- Background: deeper space feel -->
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%"   stop-color="#050010"/>
-      <stop offset="28%"  stop-color="#0d0030"/>
-      <stop offset="55%"  stop-color="#1a0060"/>
-      <stop offset="78%"  stop-color="#003d7a"/>
-      <stop offset="100%" stop-color="#050010"/>
+      <stop offset="0%"   stop-color="#020008"/>
+      <stop offset="25%"  stop-color="#0a0022"/>
+      <stop offset="50%"  stop-color="#140050"/>
+      <stop offset="75%"  stop-color="#002860"/>
+      <stop offset="100%" stop-color="#020008"/>
     </linearGradient>
 
-    <!-- Name text gradient -->
+    <!-- Name gradient: brighter, more vibrant cyan-white-cyan -->
     <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#64b5f6"/>
-      <stop offset="30%"  stop-color="#ffffff"/>
-      <stop offset="70%"  stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#64b5f6"/>
+      <stop offset="0%"   stop-color="#48cae4"/>
+      <stop offset="22%"  stop-color="#ade8f4"/>
+      <stop offset="50%"  stop-color="#ffffff"/>
+      <stop offset="78%"  stop-color="#ade8f4"/>
+      <stop offset="100%" stop-color="#48cae4"/>
     </linearGradient>
 
     <!-- Accent line gradient -->
     <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#050010" stop-opacity="0"/>
-      <stop offset="30%"  stop-color="#00b4d8" stop-opacity="0.9"/>
+      <stop offset="0%"   stop-color="#020008" stop-opacity="0"/>
+      <stop offset="25%"  stop-color="#0096c7" stop-opacity="0.85"/>
       <stop offset="50%"  stop-color="#48cae4" stop-opacity="1"/>
-      <stop offset="70%"  stop-color="#00b4d8" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#050010" stop-opacity="0"/>
+      <stop offset="75%"  stop-color="#0096c7" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#020008" stop-opacity="0"/>
     </linearGradient>
 
     <!-- Scanner gradient -->
     <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%"   stop-color="#00b4d8" stop-opacity="0"/>
-      <stop offset="50%"  stop-color="#00b4d8" stop-opacity="0.30"/>
+      <stop offset="50%"  stop-color="#00b4d8" stop-opacity="0.22"/>
       <stop offset="100%" stop-color="#00b4d8" stop-opacity="0"/>
     </linearGradient>
 
-    <!-- Aurora radial gradients -->
+    <!-- Aurora radial gradients (4 blobs) -->
     <radialGradient id="aur1" cx="50%" cy="50%" r="50%">
-      <stop offset="0%"   stop-color="#1a0090" stop-opacity="0.70"/>
+      <stop offset="0%"   stop-color="#2200a0" stop-opacity="0.75"/>
       <stop offset="55%"  stop-color="#0d0060" stop-opacity="0.30"/>
-      <stop offset="100%" stop-color="#050010" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#020008" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="aur2" cx="50%" cy="50%" r="50%">
-      <stop offset="0%"   stop-color="#004a90" stop-opacity="0.55"/>
-      <stop offset="55%"  stop-color="#002d70" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#050010" stop-opacity="0"/>
+      <stop offset="0%"   stop-color="#0055a0" stop-opacity="0.60"/>
+      <stop offset="55%"  stop-color="#003380" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#020008" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="aur3" cx="50%" cy="50%" r="50%">
-      <stop offset="0%"   stop-color="#6a00b0" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#050010" stop-opacity="0"/>
+      <stop offset="0%"   stop-color="#7a00c0" stop-opacity="0.40"/>
+      <stop offset="60%"  stop-color="#4a0080" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#020008" stop-opacity="0"/>
+    </radialGradient>
+    <!-- 4th aurora: warm teal -->
+    <radialGradient id="aur4" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#007890" stop-opacity="0.38"/>
+      <stop offset="60%"  stop-color="#004060" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#020008" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Shooting star trail gradient -->
-    <linearGradient id="shootGrad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="110" y2="0">
+    <!-- 3 shooting star trail gradients (blue / purple / teal) -->
+    <linearGradient id="sg1" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="130" y2="0">
       <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="60%"  stop-color="#90caf9" stop-opacity="0.6"/>
+      <stop offset="55%"  stop-color="#90caf9" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="sg2" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="85" y2="0">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="55%"  stop-color="#ce93d8" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="sg3" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="70" y2="0">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="55%"  stop-color="#80deea" stop-opacity="0.60"/>
       <stop offset="100%" stop-color="#ffffff" stop-opacity="1"/>
     </linearGradient>
 
-    <!-- Shimmer highlight gradient (sweeps across name) -->
-    <linearGradient id="shimmerG" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="180" y2="0">
+    <!-- Shimmer highlight -->
+    <linearGradient id="shimmerG" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="210" y2="0">
       <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="38%"  stop-color="#ffffff" stop-opacity="0.08"/>
-      <stop offset="50%"  stop-color="#ffffff" stop-opacity="0.55"/>
-      <stop offset="62%"  stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="38%"  stop-color="#ffffff" stop-opacity="0.07"/>
+      <stop offset="50%"  stop-color="#ffffff" stop-opacity="0.65"/>
+      <stop offset="62%"  stop-color="#ffffff" stop-opacity="0.07"/>
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
 
-    <!-- Mask: clips shimmer rect to name text shape -->
+    <!-- Name shimmer mask -->
     <mask id="nameMask">
       <text x="600" y="152" text-anchor="middle"
             font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
@@ -73,28 +94,38 @@
             fill="white">SASHIKANTA SAHOO</text>
     </mask>
 
+    <!-- Soft glow filter for brackets / badges -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
     <style>
       /* ── Aurora breathing ── */
       @keyframes aur1 {
         0%,100% { transform:translate(0px,0px)    scale(1.00) }
-        33%     { transform:translate(55px,-28px)  scale(1.13) }
-        66%     { transform:translate(-28px,18px)  scale(0.92) }
+        33%     { transform:translate(55px,-28px)  scale(1.15) }
+        66%     { transform:translate(-28px,18px)  scale(0.90) }
       }
       @keyframes aur2 {
         0%,100% { transform:translate(0px,0px)    scale(1.00) }
-        50%     { transform:translate(-65px,30px)  scale(1.20) }
+        50%     { transform:translate(-65px,30px)  scale(1.22) }
       }
       @keyframes aur3 {
         0%,100% { transform:translate(0px,0px)    scale(1.00) }
-        40%     { transform:translate(30px,15px)   scale(1.10) }
-        80%     { transform:translate(-15px,-20px) scale(0.90) }
+        40%     { transform:translate(30px,15px)   scale(1.12) }
+        80%     { transform:translate(-15px,-20px) scale(0.88) }
+      }
+      @keyframes aur4 {
+        0%,100% { transform:translate(0px,0px)    scale(1.00) }
+        55%     { transform:translate(-45px,-20px) scale(1.18) }
       }
 
       /* ── Scanner sweep ── */
       @keyframes scan {
         0%   { transform:translateY(-340px); opacity:0   }
-        8%   { opacity:.50 }
-        92%  { opacity:.50 }
+        8%   { opacity:.42 }
+        92%  { opacity:.42 }
         100% { transform:translateY(680px);  opacity:0   }
       }
 
@@ -106,32 +137,43 @@
       @keyframes tw-e { 0%,100%{opacity:.28} 50%{opacity:1.00} }
       @keyframes tw-f { 0%,100%{opacity:.55} 50%{opacity:1.00} }
 
-      /* ── Shooting star ── */
-      @keyframes shoot {
-        0%   { opacity:0; transform:translate(60px,18px)   rotate(32deg) }
-        4%   { opacity:0; transform:translate(60px,18px)   rotate(32deg) }
-        8%   { opacity:1 }
-        24%  { opacity:0; transform:translate(1120px,430px) rotate(32deg) }
-        100% { opacity:0; transform:translate(1120px,430px) rotate(32deg) }
+      /* ── 3 shooting stars — staggered angle / color / timing ── */
+      @keyframes sh1 {
+        0%,5%  { opacity:0; transform:translate(50px,15px)    rotate(30deg) }
+        9%     { opacity:1 }
+        22%    { opacity:0; transform:translate(1130px,440px)  rotate(30deg) }
+        100%   { opacity:0; transform:translate(1130px,440px)  rotate(30deg) }
+      }
+      @keyframes sh2 {
+        0%,38% { opacity:0; transform:translate(180px,8px)    rotate(22deg) }
+        42%    { opacity:1 }
+        56%    { opacity:0; transform:translate(1100px,320px)  rotate(22deg) }
+        100%   { opacity:0; transform:translate(1100px,320px)  rotate(22deg) }
+      }
+      @keyframes sh3 {
+        0%,70% { opacity:0; transform:translate(40px,55px)    rotate(15deg) }
+        74%    { opacity:1 }
+        85%    { opacity:0; transform:translate(860px,240px)  rotate(15deg) }
+        100%   { opacity:0; transform:translate(860px,240px)  rotate(15deg) }
       }
 
-      /* ── Name glow pulse ── */
+      /* ── Name glow pulse — deeper, more dramatic ── */
       @keyframes nameGlow {
-        0%,100% { filter:drop-shadow(0 0  5px #4fc3f7) drop-shadow(0 0  9px #1565c0) }
-        50%     { filter:drop-shadow(0 0 13px #90caf9) drop-shadow(0 0 24px #1976d2)
-                         drop-shadow(0 0 38px #0d47a1) }
+        0%,100% { filter:drop-shadow(0 0  6px #4fc3f7) drop-shadow(0 0 11px #1565c0) }
+        50%     { filter:drop-shadow(0 0 17px #90caf9) drop-shadow(0 0 32px #1976d2)
+                         drop-shadow(0 0 52px #0d47a1) drop-shadow(0 0 72px #1a237e) }
       }
 
-      /* ── Shimmer sweep across name ── */
+      /* ── Shimmer sweep ── */
       @keyframes shimmer {
-        0%   { transform:translateX(-200px) }
-        100% { transform:translateX(1400px) }
+        0%   { transform:translateX(-220px) }
+        100% { transform:translateX(1440px) }
       }
 
-      /* ── Accent line glow pulse ── */
+      /* ── Accent line glow ── */
       @keyframes linePulse {
-        0%,100% { filter:drop-shadow(0 0 2px #00b4d8) }
-        50%     { filter:drop-shadow(0 0 8px #48cae4) drop-shadow(0 0 16px #0096c7) }
+        0%,100% { filter:drop-shadow(0 0 3px #00b4d8) }
+        50%     { filter:drop-shadow(0 0 11px #48cae4) drop-shadow(0 0 24px #0096c7) }
       }
 
       /* ── Corner bracket draw-in ── */
@@ -141,15 +183,58 @@
       @keyframes fadeIn   { from{opacity:0} to{opacity:1}   }
       @keyframes fadeIn85 { from{opacity:0} to{opacity:.85} }
 
+      /* ── Outer border glow pulse ── */
+      @keyframes borderPulse {
+        0%,100% { opacity:0.30 }
+        50%     { opacity:0.72 }
+      }
+
+      /* ── Radar ripple (opacity-only — safe everywhere) ── */
+      @keyframes ripple-a {
+        0%      { opacity:0 }
+        8%,26%  { opacity:0.80 }
+        55%,100%{ opacity:0 }
+      }
+      @keyframes ripple-b {
+        0%,18%  { opacity:0 }
+        28%,46% { opacity:0.55 }
+        68%,100%{ opacity:0 }
+      }
+      @keyframes ripple-c {
+        0%,36%  { opacity:0 }
+        46%,60% { opacity:0.32 }
+        82%,100%{ opacity:0 }
+      }
+      @keyframes ripple-d {
+        0%,54%  { opacity:0 }
+        63%,72% { opacity:0.15 }
+        90%,100%{ opacity:0 }
+      }
+
+      /* ── Circuit trace pulse ── */
+      @keyframes traceFade {
+        0%,100% { opacity:0.10 }
+        50%     { opacity:0.34 }
+      }
+
+      /* ── Status dot blink ── */
+      @keyframes blink {
+        0%,100% { opacity:1.0 }
+        50%     { opacity:0.18 }
+      }
+
+      /* === Assign animations === */
+
       /* Aurora */
       .aur1 { animation: aur1 13s ease-in-out infinite }
       .aur2 { animation: aur2 17s ease-in-out infinite }
       .aur3 { animation: aur3 11s ease-in-out 2s infinite }
+      .aur4 { animation: aur4 15s ease-in-out 4s infinite }
 
       /* Scanner */
       .scanner { animation: scan 5s 0.5s infinite }
 
-      /* Stars */
+      /* Original stars */
       .sa { animation: tw-a 2.3s  0.0s infinite }
       .sb { animation: tw-b 1.7s  0.4s infinite }
       .sc { animation: tw-c 3.1s  0.8s infinite }
@@ -175,32 +260,41 @@
       .sw { animation: tw-b 2.7s  1.1s infinite }
       .sx { animation: tw-d 3.0s  0.2s infinite }
       .sy { animation: tw-f 2.1s  0.9s infinite }
+      /* Extra colored stars */
+      .sz { animation: tw-d 2.6s  0.6s infinite }
+      .s0 { animation: tw-c 3.3s  1.3s infinite }
+      .s1 { animation: tw-b 1.9s  0.8s infinite }
+      .s2 { animation: tw-a 2.8s  0.1s infinite }
+      .s3 { animation: tw-e 3.1s  0.9s infinite }
+      .s4 { animation: tw-f 2.4s  1.5s infinite }
 
-      /* Shooting star */
-      .shooter { animation: shoot 11s 4s infinite }
+      /* 3 Shooting stars */
+      .sh1 { animation: sh1 15s 2s  infinite }
+      .sh2 { animation: sh2 15s 5s  infinite }
+      .sh3 { animation: sh3 15s 9s  infinite }
 
-      /* Name: fade-in once, then glow-pulse forever */
+      /* Name */
       .name-text {
         opacity: 0;
         animation: fadeIn   1.2s 0.0s forwards,
-                   nameGlow 3.2s 2.2s infinite;
+                   nameGlow 3.5s 2.2s infinite;
       }
 
-      /* Shimmer sweep */
-      .shimmer-bar { animation: shimmer 4s 3s infinite }
+      /* Shimmer */
+      .shimmer-bar { animation: shimmer 4.5s 3s infinite }
 
-      /* Accent line: fade-in once, then glow-pulse forever */
+      /* Accent line */
       .line-accent {
         opacity: 0;
         animation: fadeIn    1.5s 0.8s forwards,
-                   linePulse 2.8s 2.6s infinite;
+                   linePulse 3.0s 2.6s infinite;
       }
 
-      /* Subtitle + tech stack */
+      /* Text reveals */
       .subtitle-text { opacity:0; animation: fadeIn   1.4s 0.6s forwards }
       .tech-text     { opacity:0; animation: fadeIn85 1.6s 1.0s forwards }
 
-      /* Bracket draw-in */
+      /* Corner brackets */
       .bracket {
         stroke-dasharray:  62;
         stroke-dashoffset: 62;
@@ -210,19 +304,59 @@
       .br2 { animation-delay: 1.9s }
       .br3 { animation-delay: 2.1s }
       .br4 { animation-delay: 2.3s }
+
+      /* Border frame */
+      .border-frame { animation: borderPulse 4s ease-in-out infinite }
+
+      /* Radar ripple rings — left (blue) */
+      .r1a { animation: ripple-a 2.8s 1.0s infinite }
+      .r1b { animation: ripple-b 2.8s 1.0s infinite }
+      .r1c { animation: ripple-c 2.8s 1.0s infinite }
+      .r1d { animation: ripple-d 2.8s 1.0s infinite }
+      /* Radar ripple rings — right (purple) */
+      .r2a { animation: ripple-a 3.2s 2.4s infinite }
+      .r2b { animation: ripple-b 3.2s 2.4s infinite }
+      .r2c { animation: ripple-c 3.2s 2.4s infinite }
+
+      /* Circuit traces */
+      .trace1 { animation: traceFade 4.5s 0.5s infinite }
+      .trace2 { animation: traceFade 3.8s 1.2s infinite }
+      .trace3 { animation: traceFade 5.0s 2.0s infinite }
+      .trace4 { animation: traceFade 4.2s 0.8s infinite }
+
+      /* Badges — fade in after brackets draw */
+      .badge-elem { opacity:0; animation: fadeIn 0.9s 2.8s forwards }
+
+      /* Status dot */
+      .status-dot { animation: blink 1.4s 0.5s infinite }
     </style>
   </defs>
 
   <!-- ── Background ── -->
   <rect width="1200" height="340" fill="url(#bg)"/>
 
-  <!-- ── Aurora blobs ── -->
-  <ellipse class="aur1" cx="310" cy="155" rx="370" ry="210" fill="url(#aur1)"/>
-  <ellipse class="aur2" cx="890" cy="145" rx="410" ry="225" fill="url(#aur2)"/>
-  <ellipse class="aur3" cx="600" cy="200" rx="260" ry="140" fill="url(#aur3)"/>
+  <!-- ── 4 Aurora blobs ── -->
+  <ellipse class="aur1" cx="310"  cy="155" rx="370" ry="210" fill="url(#aur1)"/>
+  <ellipse class="aur2" cx="890"  cy="145" rx="410" ry="225" fill="url(#aur2)"/>
+  <ellipse class="aur3" cx="600"  cy="200" rx="260" ry="140" fill="url(#aur3)"/>
+  <ellipse class="aur4" cx="110"  cy="265" rx="235" ry="130" fill="url(#aur4)"/>
+
+  <!-- ── Circuit board traces — top corners ── -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Top-left traces -->
+    <path class="trace1" d="M60,20 L128,20 L128,44 L168,44" stroke="#00b4d8" stroke-width="0.9"/>
+    <path class="trace2" d="M20,60 L20,108 L44,108 L44,134" stroke="#0096c7" stroke-width="0.7"/>
+    <circle class="trace1" cx="128" cy="20"  r="2.8" fill="#00b4d8"/>
+    <circle class="trace2" cx="44"  cy="108" r="2.2" fill="#0096c7"/>
+    <!-- Top-right traces -->
+    <path class="trace3" d="M1140,20 L1072,20 L1072,44 L1032,44" stroke="#00b4d8" stroke-width="0.9"/>
+    <path class="trace4" d="M1180,60 L1180,108 L1156,108 L1156,134" stroke="#0096c7" stroke-width="0.7"/>
+    <circle class="trace3" cx="1072" cy="20"  r="2.8" fill="#00b4d8"/>
+    <circle class="trace4" cx="1156" cy="108" r="2.2" fill="#0096c7"/>
+  </g>
 
   <!-- ── Subtle grid ── -->
-  <g stroke="#3a5f8a" stroke-width="0.4" opacity="0.14">
+  <g stroke="#3a5f8a" stroke-width="0.4" opacity="0.12">
     <line x1="0"    y1="68"  x2="1200" y2="68"/>
     <line x1="0"    y1="136" x2="1200" y2="136"/>
     <line x1="0"    y1="204" x2="1200" y2="204"/>
@@ -239,8 +373,7 @@
   <!-- ── Scanner sweep ── -->
   <rect class="scanner" x="0" y="0" width="1200" height="340" fill="url(#scanGrad)"/>
 
-  <!-- ── Stars / particles ── -->
-  <!-- Row 1 — top band -->
+  <!-- ── Stars: original 25 + 6 new colored (purple / teal) ── -->
   <circle class="sa" cx="42"   cy="22"  r="1.6" fill="#90caf9"/>
   <circle class="sb" cx="118"  cy="55"  r="1.2" fill="#ffffff"/>
   <circle class="sc" cx="220"  cy="18"  r="1.8" fill="#64b5f6"/>
@@ -252,52 +385,96 @@
   <circle class="si" cx="960"  cy="38"  r="1.9" fill="#64b5f6"/>
   <circle class="sj" cx="1060" cy="20"  r="1.3" fill="#90caf9"/>
   <circle class="sk" cx="1140" cy="50"  r="1.6" fill="#ffffff"/>
-  <!-- Row 2 — upper-mid -->
   <circle class="sl" cx="85"   cy="110" r="1.2" fill="#48cae4"/>
   <circle class="sm" cx="200"  cy="95"  r="1.5" fill="#90caf9"/>
   <circle class="st" cx="430"  cy="80"  r="1.1" fill="#64b5f6"/>
   <circle class="su" cx="770"  cy="72"  r="1.4" fill="#ffffff"/>
   <circle class="sn" cx="1020" cy="90"  r="1.4" fill="#64b5f6"/>
   <circle class="so" cx="1130" cy="105" r="1.7" fill="#ffffff"/>
-  <!-- Mid-field -->
   <circle class="sv" cx="145"  cy="185" r="1.0" fill="#90caf9"/>
   <circle class="sw" cx="1055" cy="178" r="1.1" fill="#48cae4"/>
   <circle class="sx" cx="310"  cy="230" r="1.2" fill="#64b5f6"/>
   <circle class="sy" cx="890"  cy="240" r="1.0" fill="#90caf9"/>
-  <!-- Lower dots -->
   <circle class="sp" cx="55"   cy="260" r="1.3" fill="#90caf9"/>
   <circle class="sq" cx="165"  cy="285" r="1.1" fill="#48cae4"/>
   <circle class="sr" cx="1045" cy="270" r="1.5" fill="#64b5f6"/>
   <circle class="ss" cx="1155" cy="290" r="1.2" fill="#90caf9"/>
+  <!-- Colored accent stars -->
+  <circle class="sz" cx="530"  cy="58"  r="1.3" fill="#ce93d8"/>
+  <circle class="s0" cx="670"  cy="275" r="1.0" fill="#80deea"/>
+  <circle class="s1" cx="390"  cy="308" r="1.2" fill="#90caf9"/>
+  <circle class="s2" cx="842"  cy="303" r="1.1" fill="#ffffff"/>
+  <circle class="s3" cx="262"  cy="132" r="1.0" fill="#ce93d8"/>
+  <circle class="s4" cx="948"  cy="148" r="1.1" fill="#80deea"/>
 
-  <!-- ── Shooting star ── -->
-  <line class="shooter" x1="0" y1="0" x2="110" y2="0"
-        stroke="url(#shootGrad)" stroke-width="2" stroke-linecap="round"/>
+  <!-- ── 3 Shooting stars (blue / purple / teal) ── -->
+  <line class="sh1" x1="0" y1="0" x2="130" y2="0"
+        stroke="url(#sg1)" stroke-width="2.2" stroke-linecap="round"/>
+  <line class="sh2" x1="0" y1="0" x2="85"  y2="0"
+        stroke="url(#sg2)" stroke-width="1.8" stroke-linecap="round"/>
+  <line class="sh3" x1="0" y1="0" x2="70"  y2="0"
+        stroke="url(#sg3)" stroke-width="1.5" stroke-linecap="round"/>
 
-  <!-- ── Corner brackets (draw-in animation) ── -->
-  <path class="bracket br1" pathLength="60" d="M20,52 L20,20 L52,20"
-        stroke="#00b4d8" stroke-width="2.2" fill="none" opacity="0.75"/>
-  <path class="bracket br2" pathLength="60" d="M1148,20 L1180,20 L1180,52"
-        stroke="#00b4d8" stroke-width="2.2" fill="none" opacity="0.75"/>
-  <path class="bracket br3" pathLength="60" d="M20,288 L20,320 L52,320"
-        stroke="#00b4d8" stroke-width="2.2" fill="none" opacity="0.75"/>
-  <path class="bracket br4" pathLength="60" d="M1148,320 L1180,320 L1180,288"
-        stroke="#00b4d8" stroke-width="2.2" fill="none" opacity="0.75"/>
+  <!-- ── Radar ripple rings — bottom-left (cyan/blue) ── -->
+  <circle class="r1a" cx="108" cy="292" r="12"  fill="none" stroke="#00b4d8" stroke-width="1.2"/>
+  <circle class="r1b" cx="108" cy="292" r="24"  fill="none" stroke="#00b4d8" stroke-width="0.9"/>
+  <circle class="r1c" cx="108" cy="292" r="38"  fill="none" stroke="#48cae4" stroke-width="0.7"/>
+  <circle class="r1d" cx="108" cy="292" r="52"  fill="none" stroke="#90e0ef" stroke-width="0.5"/>
+  <circle cx="108" cy="292" r="3" fill="#00b4d8" opacity="0.80"/>
 
-  <!-- ── Name ── -->
+  <!-- ── Radar ripple rings — bottom-right (purple) ── -->
+  <circle class="r2a" cx="1092" cy="292" r="12"  fill="none" stroke="#7c4dff" stroke-width="1.2"/>
+  <circle class="r2b" cx="1092" cy="292" r="26"  fill="none" stroke="#7c4dff" stroke-width="0.9"/>
+  <circle class="r2c" cx="1092" cy="292" r="40"  fill="none" stroke="#ce93d8" stroke-width="0.6"/>
+  <circle cx="1092" cy="292" r="3" fill="#7c4dff" opacity="0.75"/>
+
+  <!-- ── Corner brackets (draw-in, with glow) ── -->
+  <path class="bracket br1" pathLength="60" d="M20,52 L20,18 L54,18"
+        stroke="#00b4d8" stroke-width="2.5" fill="none" opacity="0.90" filter="url(#glow)"/>
+  <path class="bracket br2" pathLength="60" d="M1146,18 L1180,18 L1180,52"
+        stroke="#00b4d8" stroke-width="2.5" fill="none" opacity="0.90" filter="url(#glow)"/>
+  <path class="bracket br3" pathLength="60" d="M20,288 L20,322 L54,322"
+        stroke="#00b4d8" stroke-width="2.5" fill="none" opacity="0.90" filter="url(#glow)"/>
+  <path class="bracket br4" pathLength="60" d="M1146,322 L1180,322 L1180,288"
+        stroke="#00b4d8" stroke-width="2.5" fill="none" opacity="0.90" filter="url(#glow)"/>
+
+  <!-- ── Outer border glow frame ── -->
+  <rect class="border-frame" x="1" y="1" width="1198" height="338"
+        fill="none" stroke="#00b4d8" stroke-width="1.2"/>
+
+  <!-- ── Status badge (top-right) — fades in after brackets ── -->
+  <g class="badge-elem">
+    <rect x="1042" y="8" width="136" height="26" rx="13"
+          fill="#020f28" stroke="#00b4d8" stroke-width="0.9" opacity="0.92"/>
+    <circle class="status-dot" cx="1058" cy="21" r="4.5" fill="#00e676"/>
+    <text x="1067" y="25.5"
+          font-family="'JetBrains Mono','Courier New',monospace"
+          font-size="9.5" font-weight="700" fill="#90e0ef" letter-spacing="1.2">ONLINE · HIRING</text>
+  </g>
+
+  <!-- ── XP badge (top-left) — fades in after brackets ── -->
+  <g class="badge-elem">
+    <rect x="22" y="8" width="112" height="26" rx="13"
+          fill="#020f28" stroke="#7c4dff" stroke-width="0.9" opacity="0.92"/>
+    <text x="78" y="25.5" text-anchor="middle"
+          font-family="'JetBrains Mono','Courier New',monospace"
+          font-size="9.5" font-weight="700" fill="#ce93d8" letter-spacing="1.2">8+ YRS · SDE-4</text>
+  </g>
+
+  <!-- ── Name text ── -->
   <text class="name-text" x="600" y="152"
         text-anchor="middle"
         font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
         font-size="80" font-weight="900" letter-spacing="6"
         fill="url(#nameGrad)">SASHIKANTA SAHOO</text>
 
-  <!-- ── Shimmer sweep (masked to name text shape) ── -->
-  <rect class="shimmer-bar" x="-180" y="82" width="180" height="82"
+  <!-- ── Shimmer sweep (masked to name text) ── -->
+  <rect class="shimmer-bar" x="-210" y="82" width="210" height="82"
         fill="url(#shimmerG)" mask="url(#nameMask)"/>
 
   <!-- ── Accent glow line ── -->
-  <rect class="line-accent" x="200" y="168" width="800" height="2"
-        fill="url(#lineGrad)" rx="1"/>
+  <rect class="line-accent" x="180" y="168" width="840" height="2.5"
+        fill="url(#lineGrad)" rx="1.5"/>
 
   <!-- ── Subtitle ── -->
   <text class="subtitle-text" x="600" y="210"
