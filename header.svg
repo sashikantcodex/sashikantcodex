@@ -86,6 +86,17 @@
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
 
+    <!-- Ticker edge-fade mask -->
+    <linearGradient id="tickerFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="white" stop-opacity="0"/>
+      <stop offset="7%"   stop-color="white" stop-opacity="1"/>
+      <stop offset="93%"  stop-color="white" stop-opacity="1"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="tickerMask">
+      <rect x="180" y="215" width="840" height="28" fill="url(#tickerFade)"/>
+    </mask>
+
     <!-- Name shimmer mask -->
     <mask id="nameMask">
       <text x="600" y="152" text-anchor="middle"
@@ -223,6 +234,18 @@
         50%     { opacity:0.18 }
       }
 
+      /* ── Subtitle color pulse ── */
+      @keyframes subtitleColor {
+        0%,100% { fill: #90e0ef }
+        50%     { fill: #48cae4 }
+      }
+
+      /* ── Company ticker scroll ── */
+      @keyframes ticker {
+        from { transform: translateX(1020px) }
+        to   { transform: translateX(-1800px) }
+      }
+
       /* === Assign animations === */
 
       /* Aurora */
@@ -291,8 +314,9 @@
       }
 
       /* Text reveals */
-      .subtitle-text { opacity:0; animation: fadeIn   1.4s 0.6s forwards }
+      .subtitle-text { opacity:0; animation: fadeIn 1.4s 0.6s forwards, subtitleColor 5s 2.5s ease-in-out infinite }
       .tech-text     { opacity:0; animation: fadeIn85 1.6s 1.0s forwards }
+      .company-ticker-text { opacity:0; animation: fadeIn85 0.8s 1.0s forwards, ticker 46s 1.0s linear infinite }
 
       /* Corner brackets */
       .bracket {
@@ -477,17 +501,26 @@
         fill="url(#lineGrad)" rx="1.5"/>
 
   <!-- ── Subtitle ── -->
-  <text class="subtitle-text" x="600" y="210"
+  <text class="subtitle-text" x="600" y="205"
         text-anchor="middle"
         font-family="'Segoe UI',Arial,sans-serif"
         font-size="18" font-weight="400" letter-spacing="2"
         fill="#90e0ef">Senior Full Stack Engineer  ·  Healthcare Tech  ·  AWS  ·  8+ Years in Production</text>
 
+  <!-- ── Company ticker (scrolling) ── -->
+  <g mask="url(#tickerMask)">
+    <text class="company-ticker-text" x="0" y="233"
+          text-anchor="start"
+          font-family="'JetBrains Mono','Courier New',monospace"
+          font-size="10.5" font-weight="400" letter-spacing="2"
+          fill="#48cae4">IQVIA R&amp;D Solutions · Bangalore  ◆  CitiusTech Healthcare Technology Private Limited · Bangalore  ◆  L&amp;T Technology Services · Bangalore  ◆  Associate SE · Huawei Technologies · Bangalore (Apr 2018)</text>
+  </g>
+
   <!-- ── Tech stack ── -->
-  <text class="tech-text" x="600" y="252"
+  <text class="tech-text" x="600" y="258"
         text-anchor="middle"
         font-family="'JetBrains Mono','Courier New',monospace"
-        font-size="13" font-weight="400" letter-spacing="5"
+        font-size="12.5" font-weight="400" letter-spacing="4.5"
         fill="#58A6FF">React.js  ·  Next.js  ·  Node.js  ·  TypeScript  ·  AWS  ·  Docker  ·  Kubernetes</text>
 
   <!-- ── Bottom wave ── -->

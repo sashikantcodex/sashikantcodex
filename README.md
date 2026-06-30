@@ -280,8 +280,8 @@ $ █
 
 ---
 
-**🔵 CitiusTech** — `Senior SWE → Tech Lead`
-*Oct 2020 – Oct 2024 · Pune (4 years)*
+**🔵 CitiusTech Healthcare Technology Private Limited** — `Senior SWE → Tech Lead`
+*Oct 2020 – Oct 2024 · Bangalore (4 years)*
 > Prior Authorization platform · insurance approvals · 10k+ req/day
 
 - 📄 **~25% page load reduction** — full performance audit & complete screen rebuild
@@ -292,11 +292,20 @@ $ █
 ---
 
 **🟡 L&T Technology Services** — `Software Engineer`
-*Dec 2018 – Aug 2020 (2 years)*
+*Dec 2018 – Aug 2020 · Bangalore*
 > Greenfield Doctor Portal · full ownership · React · Node.js · MongoDB
 
 - 🔧 Designed entire REST API layer — auth · file uploads · notifications · role management
 - 🧪 Maintained **75%+ test coverage** — zero critical bugs escaped to production
+
+---
+
+**⚪ Huawei Technologies** — `Associate Software Engineer`
+*Apr 2018 – Aug 2018 · Bangalore*
+> First professional role post-graduation · enterprise JavaScript front-end
+
+- 🐛 UI bug fixes and small feature additions in a large shared JavaScript codebase
+- 📐 Learned professional version control, code reviews, and Agile sprint workflows
 
 ---
 
@@ -311,9 +320,10 @@ $ █
 | Project | Stack | Proof |
 |:---|:---|:---:|
 | 🏥 **Clinical Workflow Platform** — IQVIA | Next.js · Node.js · AWS · HIPAA · Microservices | `~30%↑ perf` · `~40%↓ deploys` |
-| 💊 **Prior Authorization Engine** — CitiusTech | React.js · Node.js · MongoDB · Redis · PostgreSQL | `~25%↓ load` · `~20%↑ API` |
-| 🎨 **Enterprise React Component Library** | React.js · TypeScript · Storybook · WCAG 2.1 | `3 teams adopted` |
+| 💊 **Prior Authorization Engine** — CitiusTech Healthcare Technology | React.js · Node.js · MongoDB · Redis · PostgreSQL | `~25%↓ load` · `~20%↑ API` |
+| 🎨 **Enterprise React Component Library** — CitiusTech Healthcare Technology | React.js · TypeScript · Storybook · WCAG 2.1 | `3 teams adopted` |
 | 🩺 **Doctor Portal** — L&T Technology Services | React.js · Redux · Node.js · MongoDB · Jest | `75%+ test coverage` |
+| 🔧 **Enterprise UI Bug Fixes** — Huawei Technologies | JavaScript · Agile · Version Control | `First professional role` |
 | ☸️ **MERN DevOps Stack** *(personal)* | AWS EKS · Terraform · Helm · ArgoCD · Jenkins | `Full IaC + GitOps` |
 
 </div>
