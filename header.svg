@@ -505,7 +505,7 @@
         text-anchor="middle"
         font-family="'Segoe UI',Arial,sans-serif"
         font-size="18" font-weight="400" letter-spacing="2"
-        fill="#90e0ef">Senior Full Stack Engineer  ·  Healthcare Tech  ·  AWS  ·  8+ Years in Production</text>
+        fill="#90e0ef">Senior AI Full Stack Engineer  ·  GenAI / RAG  ·  Healthcare Tech  ·  8+ Years in Production</text>
 
   <!-- ── Company ticker (scrolling) ── -->
   <g mask="url(#tickerMask)">
@@ -521,7 +521,7 @@
         text-anchor="middle"
         font-family="'JetBrains Mono','Courier New',monospace"
         font-size="12.5" font-weight="400" letter-spacing="4.5"
-        fill="#58A6FF">React.js  ·  Next.js  ·  Node.js  ·  TypeScript  ·  AWS  ·  Docker  ·  Kubernetes</text>
+        fill="#58A6FF">React.js  ·  Next.js  ·  Node.js  ·  Python/FastAPI  ·  LangChain  ·  AWS  ·  Docker  ·  Kubernetes</text>
 
   <!-- ── Bottom wave ── -->
   <path d="M0,295 Q120,278 240,292 Q360,306 480,292 Q600,278 720,292 Q840,306 960,292 Q1080,278 1200,292 L1200,340 L0,340 Z"

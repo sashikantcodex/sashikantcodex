@@ -12,7 +12,7 @@
 
 <!-- ─── SKILL ICON TICKER ─────────────────────────────────────────────── -->
 <div align="center">
-<img src="https://skillicons.dev/icons?i=react,nextjs,ts,nodejs,aws,docker,kubernetes,mongodb,postgres,redis,jenkins,github&theme=dark&perline=12"/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,nodejs,py,fastapi,aws,docker,kubernetes,mongodb,postgres,redis,jenkins,github&theme=dark&perline=14"/>
 </div>
 
 <br/>
@@ -20,7 +20,7 @@
 <!-- ─── TYPING ANIMATION ──────────────────────────────────────────────── -->
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=600&color=58A6FF&center=true&vCenter=true&multiline=false&width=1000&height=50&lines=8%2B+Years+Building+Production-Grade+Healthcare+Platforms+%F0%9F%8F%A5;~30%25+Perf+%7C+~40%25+Faster+CI%2FCD+%7C+Zero+Production+Outages+%E2%9A%A1;HIPAA+%E2%80%A2+Multi-tenant+%E2%80%A2+JWT%2FRBAC+%E2%80%A2+Microservices+%F0%9F%94%90;SDE-4+%40+IQVIA+Bangalore+%E2%80%A2+Seeking+Lead+%2F+Principal+Roles+%F0%9F%9A%80;AI%2FLLMs+%E2%80%A2+Terraform+%E2%80%A2+AWS+Cert+%E2%80%A2+CKA+%E2%80%94+Levelling+Up+%F0%9F%8E%AF" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=600&color=58A6FF&center=true&vCenter=true&multiline=false&width=1000&height=50&lines=Senior+AI+Full+Stack+Engineer+%F0%9F%A4%96+%7C+8%2B+Yrs+Building+Production+Healthcare+Platforms+%F0%9F%8F%A5;GenAI+%E2%80%A2+RAG+Pipelines+%E2%80%A2+LangChain%2FLangGraph+%E2%80%A2+LLM+APIs+%F0%9F%A7%A0;~30%25+Perf+%7C+~40%25+Faster+CI%2FCD+%7C+Zero+Production+Outages+%E2%9A%A1;HIPAA+%E2%80%A2+Multi-tenant+%E2%80%A2+JWT%2FRBAC+%E2%80%A2+Microservices+%F0%9F%94%90;SDE-4+%40+IQVIA+Bangalore+%E2%80%A2+Seeking+Lead+%2F+Principal+Roles+%F0%9F%9A%80;pgvector+%E2%80%A2+Agentic+RAG+%E2%80%A2+LLM+Evals+%E2%80%A2+AWS+Bedrock%2FSageMaker+%F0%9F%8E%AF" alt="Typing SVG" />
 
 </div>
 
@@ -32,6 +32,7 @@
 [![Profile Views](https://komarev.com/ghpvc/?username=sashikantcodex&label=Profile+Views&color=0d47a1&style=for-the-badge&logo=github&logoColor=white)](https://github.com/sashikantcodex)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sashikanta-sahoo-108688313)
 [![Email](https://img.shields.io/badge/Gmail-Mail%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sashikantgeek@gmail.com)
+[![GenAI Engineer](https://img.shields.io/badge/%F0%9F%A4%96%20GenAI-RAG%20%7C%20LangChain%20%7C%20LLMs-8E24AA?style=for-the-badge)](https://github.com/sashikantcodex/ai-knowledge-assistant-program)
 [![Open To Work](https://img.shields.io/badge/%F0%9F%9F%A2%20Open%20To-Senior%20%2F%20Lead%20Roles-2ea44f?style=for-the-badge)](mailto:sashikantgeek@gmail.com)
 
 </div>
@@ -54,18 +55,21 @@ Authenticating... ████████████████████  
 ┌─────────────────────────────────────────────────────────────┐
 │  ENGINEER PROFILE — SASHIKANTA SAHOO                        │
 ├──────────────┬──────────────────────────────────────────────┤
-│  role        │  SDE-4 · Senior Full Stack Engineer          │
+│  role        │  SDE-4 · Senior AI Full Stack Engineer 🤖    │
 │  company     │  IQVIA R&D Solutions · Bangalore 🇮🇳         │
 │  domain      │  Healthcare Tech · Pharma R&D · HIPAA        │
 │  experience  │  8+ years — production shipped, not just PR'd│
 │  stack       │  React · Next.js · Node.js · TypeScript · AWS│
+│  ai stack 🧠 │  Python · FastAPI · LangChain/LangGraph · RAG│
 │  devops      │  Docker · Kubernetes · Jenkins · Terraform    │
 │  security    │  JWT · RBAC · OWASP Top 10 · HIPAA Audits    │
 ├──────────────┼──────────────────────────────────────────────┤
-│  impact      │  ~30% faster loads · ~40% faster deploys     │
+│  impact      │  ~30% faster loads · ~40% faster deploys ⚡   │
 │              │  ~20% faster APIs  · zero production outages  │
 ├──────────────┼──────────────────────────────────────────────┤
-│  levelling   │  AI/LLMs · AWS Cert · Kubernetes CKA         │
+│  genai 🚀    │  RAG pipelines · structured extraction ·     │
+│              │  citation-backed Q&A · secure LLM integration│
+│  levelling   │  Agentic RAG · AWS Bedrock/SageMaker · CKA   │
 │  seeking     │  Lead / Principal · Bangalore · Remote/Hybrid│
 ├──────────────┴──────────────────────────────────────────────┤
 │  🟢  ONLINE — Building · Mentoring · Shipping               │
@@ -142,6 +146,55 @@ $ █
 </td>
 </tr>
 </table>
+
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:6a11cb,50:2575fc,100:6a11cb&height=2"/>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--                    GENAI / AI ENGINEERING                         -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
+## 🤖 GenAI / AI Engineering
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=3200&pause=700&color=CE93D8&center=true&vCenter=true&width=850&height=36&lines=Shipping+production+GenAI+features+inside+a+HIPAA-aligned+platform+%F0%9F%A7%AA" alt="GenAI"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/🧠_LLM_APIs-8E24AA?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/✍️_Prompt_Engineering-8E24AA?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/🔗_RAG_Pipelines-6A1B9A?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/🧬_Embeddings-6A1B9A?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/🔎_Semantic_Search-5E35B1?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/📚_Vector_Search-5E35B1?style=for-the-badge"/>
+<br/>
+<img src="https://img.shields.io/badge/📥_Doc_Ingestion_%26_Chunking-3949AB?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/🧩_Structured_Extraction-3949AB?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/💬_Citation--backed_Q%26A-1E88E5?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/🦜_LangChain-1E88E5?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/🕸️_LangGraph-039BE5?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/☁️_AWS_Bedrock_%2F_SageMaker-039BE5?style=for-the-badge"/>
+
+<br/><br/>
+
+<img src="https://skillicons.dev/icons?i=python,fastapi&theme=dark"/>
+
+<sub>Pydantic · asyncio · PostgreSQL · SQLAlchemy · Alembic · Redis · Celery · Kafka · ChromaDB / Vector DBs</sub>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+| 🤖 AI Project | Tech | Highlights |
+|:---|:---|:---|
+| 🧠 **[AI Knowledge Assistant](https://github.com/sashikantcodex/ai-knowledge-assistant-program)** | Next.js · Node/Express · FastAPI · MongoDB · ChromaDB · Gemini/OpenAI · WebSockets · JWT · Docker | Enterprise PDF/DOCX Q&A — semantic search, citation-backed RAG answers, conversational retrieval |
+| 🧑‍💼 **[AI Recruitment Platform](https://github.com/sashikantcodex/ai-recruitment-platform)** | Next.js 16 · React 19 · Express 5 · FastAPI · MongoDB · OpenAI SDK · Docker Compose · GitHub Actions | Resume parsing, JD-resume scoring, policy RAG, interview-question generation, agent-style workflows |
 
 </div>
 
@@ -225,7 +278,7 @@ $ █
 
 **Backend · Databases**
 <br/>
-<img src="https://skillicons.dev/icons?i=nodejs,express,graphql,mongodb,postgres,mysql,redis,elasticsearch&theme=dark"/>
+<img src="https://skillicons.dev/icons?i=nodejs,express,graphql,python,fastapi,mongodb,postgres,mysql,redis,elasticsearch&theme=dark"/>
 
 </td><td valign="top" width="50%">
 
@@ -269,14 +322,18 @@ $ █
 
 <img align="right" width="38%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sashikantcodex&layout=compact&theme=github_dark&hide_border=true&title_color=58A6FF&text_color=c9d1d9&bg_color=0d1117&langs_count=6"/>
 
-**🟢 IQVIA R&D Solutions** — `SDE-4 · Senior Full Stack Engineer`
+**🟢 IQVIA R&D Solutions** — `SDE-4 · Senior AI Full Stack Engineer`
 *Nov 2024 – Present · Bangalore*
-> Multi-tenant clinical data platform for global pharma R&D
+> Multi-tenant clinical data platform for global pharma R&D + GenAI enablement
 
 - ⚡ **~30% load time reduction** — API batching, Redis caching, query optimisation
 - 🚀 **~40% faster deploys** — Jenkins + AWS pipeline overhaul (40 min → 25 min, zero outages)
 - 🔐 Standardised **JWT + RBAC** · multi-tenant data isolation · HIPAA audit logging
 - 👨‍🏫 Mentoring **3 junior engineers** · architecture reviews · stakeholder alignment
+- 🤖 Prototyping **RAG pipelines** for clinical doc ingestion, chunking & semantic retrieval
+- 🧩 Building **structured extraction** workflows — LLM prompting + schema validation
+- 💬 Developing **citation-backed Q&A** over clinical trial documentation
+- 🔒 Architecting secure **enterprise-to-LLM** patterns — RBAC-scoped access, PII redaction, audit logging
 
 ---
 
@@ -296,7 +353,7 @@ $ █
 > Greenfield Doctor Portal · full ownership · React · Node.js · MongoDB
 
 - 🔧 Designed entire REST API layer — auth · file uploads · notifications · role management
-- 🧪 Maintained **75%+ test coverage** — zero critical bugs escaped to production
+- 🧪 Maintained **95% unit/integration test coverage** (Jest, Mocha, Chai) — zero critical bugs escaped to production
 
 ---
 
@@ -319,10 +376,12 @@ $ █
 
 | Project | Stack | Proof |
 |:---|:---|:---:|
+| 🧠 **[AI Knowledge Assistant](https://github.com/sashikantcodex/ai-knowledge-assistant-program)** *(personal)* | Next.js · FastAPI · MongoDB · ChromaDB · Gemini/OpenAI | `RAG` · `Citation Q&A` |
+| 🧑‍💼 **[AI Recruitment Platform](https://github.com/sashikantcodex/ai-recruitment-platform)** *(personal)* | Next.js 16 · React 19 · FastAPI · OpenAI SDK · Docker | `Agentic workflows` |
 | 🏥 **Clinical Workflow Platform** — IQVIA | Next.js · Node.js · AWS · HIPAA · Microservices | `~30%↑ perf` · `~40%↓ deploys` |
 | 💊 **Prior Authorization Engine** — CitiusTech Healthcare Technology | React.js · Node.js · MongoDB · Redis · PostgreSQL | `~25%↓ load` · `~20%↑ API` |
 | 🎨 **Enterprise React Component Library** — CitiusTech Healthcare Technology | React.js · TypeScript · Storybook · WCAG 2.1 | `3 teams adopted` |
-| 🩺 **Doctor Portal** — L&T Technology Services | React.js · Redux · Node.js · MongoDB · Jest | `75%+ test coverage` |
+| 🩺 **Doctor Portal** — L&T Technology Services | React.js · Redux · Node.js · MongoDB · Jest | `95%+ test coverage` |
 | 🔧 **Enterprise UI Bug Fixes** — Huawei Technologies | JavaScript · Agile · Version Control | `First professional role` |
 | ☸️ **MERN DevOps Stack** *(personal)* | AWS EKS · Terraform · Helm · ArgoCD · Jenkins | `Full IaC + GitOps` |
 
@@ -372,30 +431,54 @@ $ █
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=3000&pause=800&color=48CAE4&center=true&vCenter=true&width=700&height=36&lines=8+years+deep+%E2%80%94+still+shipping+new+skills+every+sprint+%F0%9F%8E%AF" alt="Learning"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=3000&pause=800&color=48CAE4&center=true&vCenter=true&width=700&height=36&lines=2026%E2%80%932027+AI+Engineering+Development+%F0%9F%8E%AF" alt="Learning"/>
 
 <br/><br/>
 
 <table>
 <tr>
-<td align="center">🤖<br/><b>AI / LLM Integration</b><br/><sub>Exploring</sub></td>
-<td align="center">🏗️<br/><b>Terraform</b><br/><sub>Hands-on</sub></td>
-<td align="center">☁️<br/><b>AWS Dev Associate</b><br/><sub>In Progress</sub></td>
-<td align="center">⚓<br/><b>Kubernetes CKA</b><br/><sub>Studying</sub></td>
-<td align="center">🔄<br/><b>System Design</b><br/><sub>Deep Dive</sub></td>
-<td align="center">🆕<br/><b>React Server Comps</b><br/><sub>Exploring</sub></td>
+<td align="center">🧮<br/><b>pgvector / Hybrid Search</b><br/><sub>Hands-on</sub></td>
+<td align="center">🕸️<br/><b>Agentic RAG + LangGraph</b><br/><sub>Building</sub></td>
+<td align="center">📏<br/><b>LLM Eval / Observability</b><br/><sub>In Progress</sub></td>
+<td align="center">🛡️<br/><b>Guardrails & PII Protection</b><br/><sub>Studying</sub></td>
 </tr>
 <tr>
-<td><img src="https://img.shields.io/badge/▓▓▓░░░░░-40%25-48CAE4?style=flat-square"/></td>
-<td><img src="https://img.shields.io/badge/▓▓▓▓▓░░░-60%25-48CAE4?style=flat-square"/></td>
-<td><img src="https://img.shields.io/badge/▓▓▓▓░░░░-50%25-48CAE4?style=flat-square"/></td>
-<td><img src="https://img.shields.io/badge/▓▓▓░░░░░-40%25-48CAE4?style=flat-square"/></td>
-<td><img src="https://img.shields.io/badge/▓▓▓▓▓▓▓░-75%25-48CAE4?style=flat-square"/></td>
+<td><img src="https://img.shields.io/badge/▓▓▓▓▓░░░-60%25-CE93D8?style=flat-square"/></td>
+<td><img src="https://img.shields.io/badge/▓▓▓▓░░░░-50%25-CE93D8?style=flat-square"/></td>
+<td><img src="https://img.shields.io/badge/▓▓▓░░░░░-40%25-CE93D8?style=flat-square"/></td>
+<td><img src="https://img.shields.io/badge/▓▓▓░░░░░-40%25-CE93D8?style=flat-square"/></td>
+</tr>
+<tr>
+<td align="center">☁️<br/><b>AWS Bedrock / SageMaker</b><br/><sub>Exploring</sub></td>
+<td align="center">⚓<br/><b>Kubernetes / Helm</b><br/><sub>Studying</sub></td>
+<td align="center">🔭<br/><b>OpenTelemetry</b><br/><sub>Hands-on</sub></td>
+<td align="center">🔄<br/><b>System Design</b><br/><sub>Deep Dive</sub></td>
+</tr>
+<tr>
 <td><img src="https://img.shields.io/badge/▓▓░░░░░░-25%25-48CAE4?style=flat-square"/></td>
+<td><img src="https://img.shields.io/badge/▓▓▓░░░░░-40%25-48CAE4?style=flat-square"/></td>
+<td><img src="https://img.shields.io/badge/▓▓▓▓░░░░-50%25-48CAE4?style=flat-square"/></td>
+<td><img src="https://img.shields.io/badge/▓▓▓▓▓▓▓░-75%25-48CAE4?style=flat-square"/></td>
 </tr>
 </table>
 
 </div>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--                          EDUCATION                                -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
+## 🎓 Education
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/🎓_B.E._Computer_Science-Govt._College_of_Engineering,_Kalahandi_(GCEK)%2C_BPUT_Odisha-2E7D32?style=for-the-badge"/>
+
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:1e3a5f,100:0d1117&height=2"/>
 
 ---
 
@@ -413,8 +496,8 @@ $ █
 
 <br/>
 
-> 💬 *Open to Senior / Lead / Principal engineering roles — Bangalore, Remote, or Hybrid.*
-> *If you're building something meaningful in Healthcare, FinTech, or SaaS — let's talk.*
+> 💬 *Open to Senior / Lead / Principal engineering & AI/GenAI roles — Bangalore, Remote, or Hybrid.*
+> *If you're building something meaningful in Healthcare, AI, FinTech, or SaaS — let's talk.* 🚀
 
 </div>
 
@@ -426,7 +509,7 @@ $ █
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=4000&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&lines=%22I+don%27t+just+write+code+%E2%80%94+I+own+outcomes.%22;%228+years+of+production+scars+and+still+learning.%22;%22From+architecture+decisions+to+production+performance.%22;%22Available+for+Senior+%2F+Lead+roles+%C2%B7+Bangalore+%C2%B7+Remote%22" alt="Footer Quote"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=4000&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&lines=%22I+don%27t+just+write+code+%E2%80%94+I+own+outcomes.%22;%228+years+of+production+scars%2C+now+building+with+GenAI.%22;%22From+RAG+pipelines+to+production+performance.%22;%22Available+for+Senior+%2F+Lead+%2F+AI+Engineering+roles+%C2%B7+Bangalore+%C2%B7+Remote%22" alt="Footer Quote"/>
 
 <br/>
 
